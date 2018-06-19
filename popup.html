@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div {
+			    color: black;
+			    font-size: 100px;
+			    font-weight: 100;
+			    text-align: center;
+/*			    margin: 0;
+			    word-spacing: 4vw;
+			    transform: scale(1, 1);
+			    z-index: 2;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    background: transparent;*/
+			    transform: translate(0%, -10%) ;
+/*			    opacity: 1;
+			    width: 50%; 	
+			    height: 30%;*/
+			}
+			#week {
+				position: absolute;
+				top: 92%;
+			    left: 38%;
+			    border: 2px solid #000000;
+			}
+
+			#month {
+				position: absolute;
+			    left: 50%;
+			    top: 92%;
+			    border: 2px solid #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "Times">
+			00:00:00
+		</div>
+		<div id = "Percents">
+			0%
+		</div>
+		<button id="week">Week</button>
+		<button id="month">Month</button>
+		<script src = "popup.js"></script>
+	</body>
+</html>

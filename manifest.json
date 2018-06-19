@@ -1,0 +1,43 @@
+{
+	"manifest_version" : 2,
+	"name": "CosmicTime",
+	"description" : "Tells you how much time you have left.", 
+	"version" : "1", 
+	"author" : "Daniel Jing",
+
+	"browser_action" : {
+		"default_icon": "image.png",
+		"default_title": "Live Intentionally!",
+		"default_popup": "popup.html"
+	},
+
+	"chrome_url_overrides" : {
+		"newtab" : "newtab.html"
+	},
+
+	"permissions": ["activeTab", "tabs", "storage"], 
+
+
+	"background": {
+		"scripts": ["background.js"]
+	}, 
+
+	"icons": {
+      "16": "image.png",
+      "32": "image.png",
+      "48": "image.png",
+      "128": "image.png"
+    },
+
+
+	"content_scripts": [
+	  {
+	    "matches": [
+	      "<all_urls>"
+	    ],
+	    "js": ["content.js"]
+	  }
+	],
+
+    "options_page": "options.html"
+}
