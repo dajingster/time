@@ -1,4 +1,4 @@
-# CosmicTime
+# TrueTime
 The inspiration for this was to create a chrome extension that tracks both the total and percentage of time spent on a certain list of websites that the user can set, to inform the user on their time allocation and productivity habits. That idea expanded and the magnitude of the project grew as I introduced more functionality, including a new tab page and user options. The intention is to help boost productivity by placing time into perspective. 
 
 Getting Started
