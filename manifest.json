@@ -1,6 +1,6 @@
 {
 	"manifest_version" : 2,
-	"name": "CosmicTime",
+	"name": "Time",
 	"description" : "Tells you how much time you have left.", 
 	"version" : "1", 
 	"author" : "Daniel Jing",
