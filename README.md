@@ -1,4 +1,4 @@
-# TrueTime
+# Time
 The original purpose was to track the time spent on a user-set list of websites to inform the user on their time allocation and productivity habits. Over time, the magnitude of the project grew as I introduced more functionality, including a new tab page and user options. The intention is to help boost productivity by placing time into perspective. 
 
 Getting Started
